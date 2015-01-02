@@ -1,0 +1,11 @@
+RewriteEngine On
+RewriteBase /crm/formular
+
+# Rewrite Parameter
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-l
+RewriteRule ^([a-zA-Z0-9]*)$ ?form=$1&stand=neu&rootminus=0 [NC,L]
+RewriteRule ^([a-zA-Z0-9]*)/$ ?form=$1&stand=neu&rootminus=1 [NC,L]
+RewriteRule ^([a-zA-Z0-9]*)/([a-zA-Z0-9]*)$ ?form=$1&stand=$2&rootminus=1 [NC,L]
+RewriteRule ^([a-zA-Z0-9]*)/([a-zA-Z0-9]*)/$ ?form=$1&stand=$2&rootminus=2 [NC,L]
