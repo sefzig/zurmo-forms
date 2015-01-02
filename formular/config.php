@@ -1,6 +1,5 @@
 <?php 
 
- /* Allgemein */
     $config = array(
        'text'                                => array(
           'titel'                            => "Sefzig.net CRM: Formulare",
