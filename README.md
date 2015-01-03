@@ -1,13 +1,14 @@
 zurmo-forms
 ===========
 
-I was unhappy with how and how un-form-porny Zurmo delivers its webforms. I want to have chapters, additional explanations, a loading-indicator and usecase-related lables, all configurable in one place. 
+I was unhappy with how Zurmo delivers its webforms out-of-the-box. I want to have chapters, additional explanations, a loading-indicator and usecase-related lables, all configurable in one place. So I made up a solution to optimize one or many webforms: 
+http://sefzig.net/link/CrmFormulare/ 
 
-Like http://sefzig.net/crm/formular/kontakt/. 
+The program is installed anywhere in the domain of a Zurmo-installation. It loads a webform via the js-link provided by Zurmo, indicates the loading-state, runs jqueries over the form as soon as it has loaded to optionally place certain text before certain lines, change lables and add mouseover-tooltips according to the forms usecase. All configuration is held by a php-array in a separate config-file: 
+http://sefzig.net/link/GithubZurmoformsKonfig/ 
 
-The program is installed anywhere in the domain of your Zurmo-installation. It loads the webform, indicates the loading-state, runs jqueries over the form as it has loaded to optionally place certain text before certain lines to create headings, to change lables according to the forms purpose and to add mouseover-tooltips. All configuration is held by an array in a separate php-file.
-
-Reading the forum and comments in the documentation, I found that others were unsatisfied with Zurmos ootb-solition (Community Edition) too, so here you are. I'm not poud of the code, but it works for me. If you use it, please leave me a note. If you want to optimize it, go ahead.
+Reading Zurmos forum and comments in the Zurmo documentation, I found that others were also unsatisfied with Zurmos out-of-the-box solition (Community Edition) - feel free to use this. I'm not poud of the code, but it works for me. Code and further details are made public here on Github: 
+http://sefzig.net/link/GithubZurmoforms/ 
 
 If you want to use it, please consider
 * The program is badly engineered und unstable at times. This is due to the intersection of the way Zurmo delivers the forms and my limited scripting-skills.
