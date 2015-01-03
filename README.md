@@ -25,4 +25,4 @@ Install the program on your server
 
 Don't know about Zurmo? 
 It is a great crm-system!
-Go to http://zurmo.org.
+Go to http://sefzig.net/link/ZurmoOrg/.
